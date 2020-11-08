@@ -5,13 +5,12 @@
 }
 
 body {
-    height: 100vh;
     display: flex;
-    background: #CDF5EE ;
+    background: #FFFCF6 ;
 }
 .memory-game {
-    width: 640px;
-    height: 640px;
+    width: 800px;
+    height: 700px;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
@@ -19,8 +18,8 @@ body {
 }
 
 .memory-card {
-    width: calc(25% - 10px);
-    height: 30%;
+    width: calc(25% - 20px) ;
+    height: 25%;
     margin: 5px;
     position: relative;
     transform: scale(1);
@@ -44,7 +43,7 @@ body {
     padding: 10px;
     position: absolute;
     border-radius: 20px;
-    background: #FFE9FD;
+    background: #FAF1B7 ;
     backface-visibility: hidden;
     box-shadow: 1px 1px 1px rgba(0,0,0, .3);
 }
